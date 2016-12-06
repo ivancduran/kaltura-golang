@@ -14,7 +14,7 @@ func main() {
 
 	session.SetUrl(c.Url)
 
-	s := session.New(c.Token, c.Email, "KalturaSessionType::ADMIN", c.Id, c.Expire, "", c.Apitype)
+	s := session.New(c.Token, c.Email, "KalturaSessionType::ADMIN", c.Id, c.Expire, "", c.Format)
 	fmt.Println(s)
 
 }
